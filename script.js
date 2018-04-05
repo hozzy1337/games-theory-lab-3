@@ -52,7 +52,7 @@ function init()
             console.log(elid);
             elid -=1001;
                 var num = 1 + elid * c;
-                for(i = num; i <= (num+columns); i++){
+                for(i = num; i < (num+columns); i++){
                     console.log(i);
                     try {
                         document.getElementById(i).outerHTML = "";
